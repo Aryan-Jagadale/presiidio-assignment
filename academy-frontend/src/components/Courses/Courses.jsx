@@ -27,7 +27,7 @@ const Course = ({
   const [isOpen, setIsOpen] = useState(false);
   const [sellerData, setSellerData] = useState({});
   const navigate = useNavigate();
-  const { isAuthenticated, user } = useSelector((state) => state.user);
+  const { isAuthenticated } = useSelector((state) => state.user);
 
   const handleDrawer = async () => {
     if (!isAuthenticated) {

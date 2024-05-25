@@ -19,5 +19,5 @@ export default store;
 
 
 
-// export const server = "https://academybackend.aaryanjagadale.tech/api/v1";
-export const server = "http://localhost:4000/api/v1"
+export const server = "https://presiidio-assignment.onrender.com/api/v1";
+// export const server = "http://localhost:4000/api/v1"

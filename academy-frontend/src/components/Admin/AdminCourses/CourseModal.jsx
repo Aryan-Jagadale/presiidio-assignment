@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { toast } from "react-hot-toast";
-import { RiDeleteBin7Fill } from "react-icons/ri";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
