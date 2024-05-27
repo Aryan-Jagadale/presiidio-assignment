@@ -9,7 +9,7 @@ const PropertieModal = ({
   setShowModal,
   id,
   deleteButtonHandler,
-  addImageHandler,
+  addLectureHandler,
   courseTitle,
   lectures,
   setImages,
@@ -44,13 +44,12 @@ const PropertieModal = ({
       url: imgPrev,
     };
 
-    addImageHandler(e, id, title, description, image).then(() => {
+    addLectureHandler(e, id, title, description, image).then(() => {
       setImages((prevImages) => [...prevImages, newImage]);
       setShowModal(false);
     });
   };
 
-  console.log(lectures);
   return (
     <>
       <div className="min-w-full justify-center items-center flex overflow-x-auto overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
